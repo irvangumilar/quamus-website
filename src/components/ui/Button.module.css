@@ -1,0 +1,26 @@
+.button {
+  text-align: center;
+  padding: 15px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.normalStyle {
+  background: #00cccc;
+  border: 0;
+  color: #ffffff;
+}
+
+.bwStyle {
+  background: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.button i {
+  margin-right: 10px;
+}

@@ -1,0 +1,29 @@
+.input-group {
+  border: 1px solid #000000;
+  margin-bottom: 15px;
+}
+
+.input-group .icon,
+.input-group .input {
+  padding: 15px;
+}
+
+.input-group .icon {
+  display: inline-block;
+  width: 40px;
+  font-size: 18px;
+}
+
+.input-group .icon i {
+  margin: 0;
+  padding: 0;
+}
+
+.input-group .input {
+  width: calc(100% - 40px);
+  border-style: hidden;
+}
+
+.input-group .input:focus {
+  outline: none;
+}

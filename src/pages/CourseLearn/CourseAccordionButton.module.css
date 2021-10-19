@@ -1,0 +1,82 @@
+.button,
+.button:hover {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: transparent;
+  border: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.button h1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #000000;
+  width: 85%;
+  line-height: 1.4;
+}
+
+.button p {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  color: #747474;
+}
+
+.button .check {
+  width: 30px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  color: #00cccc;
+}
+
+.button .lock {
+  width: 30px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  color: #ff0000;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .button,
+  .button:hover {
+    padding: 10px;
+  }
+
+  .button h1 {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .button p {
+    font-size: 12px;
+  }
+
+  .button .check {
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    color: #00cccc;
+  }
+
+  .button .lock {
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    color: #ff0000;
+  }
+}

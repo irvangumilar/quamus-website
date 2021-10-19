@@ -1,0 +1,32 @@
+.sale {
+  background: #ffffff;
+  border: 1px solid #d1d7dc;
+  margin-top: -150px;
+}
+
+.sale .wrapper {
+  padding: 20px;
+}
+
+.sale .thumbnail-group img {
+  width: 100%;
+}
+
+.sale .thumbnail-group {
+  position: relative;
+}
+
+.sale .thumbnail-group .button {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  background: #474747;
+  border-radius: 20%;
+  border: 0;
+  padding: 6px;
+}
+
+.sale .thumbnail-group .button i {
+  font-size: 50px;
+  color: #00cccc;
+}

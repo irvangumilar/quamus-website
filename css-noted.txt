@@ -1,0 +1,21 @@
+/* # Quamus Color = #00cccc */
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Small screens, laptops (769px — 1024px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* HD (1280px — 1920px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+}

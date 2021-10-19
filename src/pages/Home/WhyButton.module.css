@@ -1,0 +1,32 @@
+.why-button {
+  height: 70px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #ffffff;
+}
+
+.why-button p {
+  line-height: 1.5;
+}
+
+.why-button .button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.why-button .button i {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .why-button {
+    width: 100%;
+  }
+}

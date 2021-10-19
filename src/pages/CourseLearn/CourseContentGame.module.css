@@ -1,0 +1,28 @@
+.content-game {
+  width: 100%;
+}
+
+.content-game .game-player {
+  width: 100%;
+  height: 550px;
+  background: #000000;
+  padding: 10px;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .content-game .game-player {
+    height: 200px;
+    padding: 5px;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .content-game .game-player {
+    height: 430px;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,44 @@
+/* # Quamus Color = #00cccc */
+
+.upcoming-class {
+  background: #00cccc;
+  padding: 50px 0px;
+}
+
+.upcoming-class img {
+  width: 80%;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .upcoming-class .img-item {
+    margin: 10px 0;
+  }
+
+  .upcoming-class img {
+    width: 100%;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .upcoming-class .img-item {
+    margin: 20px 0;
+  }
+
+  .upcoming-class img {
+    width: 90%;
+  }
+}
+
+/* Small screens, laptops (769px — 1024px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* HD (1280px — 1920px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+}

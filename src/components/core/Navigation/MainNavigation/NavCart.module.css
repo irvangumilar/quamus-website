@@ -1,0 +1,10 @@
+.nav-cart ul li {
+  padding: 5px 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d1d7dc;
+}
+
+.button-holder {
+  padding: 5px 10px 10px 10px;
+}

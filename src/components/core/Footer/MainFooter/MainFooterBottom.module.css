@@ -1,0 +1,55 @@
+.footer-bottom {
+  background: #ffffff;
+  padding: 20px;
+}
+
+.footer-bottom p {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bottom .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom .wrapper .socmed ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-bottom .wrapper .socmed ul li .socmed-item {
+  font-size: 25px;
+  color: #ffffff;
+  background: #00cccc;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .footer-bottom {
+    background: #ffffff;
+    padding: 10px;
+  }
+
+  .footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-bottom .wrapper .socmed ul li {
+    display: inline;
+    margin-right: 5px;
+  }
+
+  .footer-bottom .wrapper .socmed ul li .socmed-item {
+    font-size: 15px;
+    color: #ffffff;
+    background: #00cccc;
+    padding: 5px;
+    border-radius: 20%;
+  }
+}

@@ -1,0 +1,64 @@
+.course-item {
+  text-decoration: none;
+}
+
+.course-item:hover {
+  cursor: pointer;
+}
+
+.course-item .thumbnail {
+  position: relative;
+}
+
+.course-item .thumbnail .badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ed1c24;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.course-item img {
+  width: 100%;
+}
+
+.course-item img:hover {
+  filter: brightness(1.2);
+}
+
+.course-item .description {
+  padding: 15px;
+  color: #000000;
+}
+
+.course-item .description h2 {
+  font-size: 22px;
+  height: 60px;
+  font-weight: 400;
+}
+
+.course-item .description h2:hover {
+  color: #00cccc;
+}
+
+.course-item .description .sale p {
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.course-item .description .sale .discount {
+  display: inline-block;
+  background: #ed1c24;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.course-item .description .price {
+  font-size: 24px;
+  font-weight: 700;
+}

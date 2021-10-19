@@ -1,0 +1,34 @@
+/* # Quamus Color = #00cccc */
+.why {
+  background: #ffffff;
+}
+
+.why .left-side {
+  background-image: url("../../images/why.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.why .right-side {
+  padding: 50px;
+}
+
+.why h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.why ul li {
+  margin: 10px 0;
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .why .right-side {
+    padding: 20px;
+  }
+}

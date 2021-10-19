@@ -1,0 +1,13 @@
+.content {
+  width: 75%;
+  position: relative;
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    position: relative;
+  }
+}

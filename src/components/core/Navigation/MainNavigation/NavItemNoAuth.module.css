@@ -1,0 +1,22 @@
+.nav-item ul li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .nav-item ul li {
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .nav-item ul li {
+    margin-bottom: 10px;
+    display: block;
+  }
+}

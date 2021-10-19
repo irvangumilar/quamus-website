@@ -1,0 +1,51 @@
+.eksplorasi {
+  padding: 40px 0;
+}
+
+.eksplorasi .description {
+  display: flex;
+  align-items: center;
+}
+
+.eksplorasi .description h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.eksplorasi .description p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.eksplorasi .description .img-group {
+  margin: 20px 10px;
+}
+
+.eksplorasi .description .img-group .img-item {
+  display: flex;
+  justify-content: center;
+}
+
+.eksplorasi .description .img-group .img-item-app img {
+  width: 100%;
+}
+
+.eksplorasi .right-side {
+  display: flex;
+  justify-content: center;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .eksplorasi .description .img-group .img-item {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .eksplorasi .description .img-group .img-item img {
+    width: 80%;
+  }
+}

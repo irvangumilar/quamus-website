@@ -1,0 +1,82 @@
+.instruktur {
+  background: #ffffff;
+}
+
+.instruktur h1 {
+  text-align: center;
+}
+
+.instruktur .description {
+  padding: 60px;
+  height: 400px;
+}
+
+.instruktur .description h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.instruktur .description p {
+  line-height: 1.5;
+}
+
+.instruktur .description ol {
+  list-style-type: decimal;
+  margin-left: 25px;
+}
+
+.instruktur .description ol li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  width: 400px;
+  font-weight: 300;
+}
+
+.instruktur .left {
+  background-image: url("../../images/instructor.jpg");
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.instruktur .bottom {
+  padding: 0 50px;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .instruktur .description {
+    padding: 20px;
+    height: 100%;
+  }
+
+  .instruktur .description ol li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .instruktur .bottom {
+    padding: 0 10px;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .instruktur .description {
+    padding: 20px;
+    height: 100%;
+  }
+
+  .instruktur .description ol li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    width: 100%;
+  }
+}

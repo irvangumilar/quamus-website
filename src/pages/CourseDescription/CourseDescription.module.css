@@ -1,0 +1,20 @@
+.left-side,
+.right-side {
+  padding: 30px;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .mobile .wrapper {
+    padding: 15px;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .mobile .wrapper {
+    padding: 30px;
+  }
+}

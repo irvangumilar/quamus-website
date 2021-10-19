@@ -1,0 +1,35 @@
+.sidebar {
+  background: #ffffff;
+  border: 1px solid #d1d7dc;
+  width: 25%;
+  height: calc(100vh - 60px);
+  position: fixed;
+  right: 0;
+  z-index: 4;
+}
+
+.sidebar .title {
+  border-bottom: 1px solid #d1d7dc;
+  padding: 20px;
+}
+
+.sidebar .title h1 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sidebar .accordion-group {
+  z-index: 1;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,94 @@
+.keunggulan {
+  background: #00cccc;
+  color: #ffffff;
+}
+
+.keunggulan .top .title {
+  padding: 100px 20px;
+}
+
+.keunggulan .top .title h1 {
+  line-height: 1.2;
+}
+
+.keunggulan .top .left {
+  background-image: url("../../images/benefit.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.keunggulan .bottom {
+  padding: 5px 40px;
+}
+
+.keunggulan .bottom .img-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.keunggulan .bottom .img-item img {
+  margin-bottom: 20px;
+}
+
+.keunggulan .bottom .img-item h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.keunggulan .bottom .img-item p {
+  line-height: 1.3;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .keunggulan .bottom .img-item h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .keunggulan .top .title {
+    padding: 30px 20px;
+  }
+
+  .keunggulan .top .title h1 {
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .keunggulan .bottom {
+    padding: 10px;
+  }
+
+  .keunggulan .bottom .img-item {
+    padding: 20px 0;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .keunggulan .top .title {
+    padding: 30px 20px;
+  }
+
+  .keunggulan .top .title h1 {
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .keunggulan .bottom {
+    padding: 10px;
+  }
+
+  .keunggulan .bottom .img-item {
+    padding: 20px 0;
+  }
+}

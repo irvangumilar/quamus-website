@@ -1,0 +1,101 @@
+.header {
+  background: #00cccc;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.header a,
+.header a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.header i {
+  margin-right: 10px;
+}
+
+.header .description {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.header .rating-group {
+  margin-bottom: 10px;
+}
+
+.header .rating-group div,
+.header .rating-group p {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.header .rating-group .status {
+  display: inline-block;
+  background: #eceb98;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #000000;
+  margin-right: 5px;
+}
+
+.header .rating-group .number-rating {
+  display: inline-block;
+  font-weight: 700;
+  color: #eceb98;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.header .rating-group .star-rating {
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.header .rating-group .star-rating ul li {
+  display: inline;
+  color: #eceb98;
+  margin-right: 3px;
+}
+
+.header .rating-group .number-rating {
+  display: inline-block;
+  font-weight: 700;
+  color: #eceb98;
+  width: 25px;
+  margin-right: 5px;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 15px 0;
+    background: transparent;
+  }
+  .header h1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .header .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header {
+    padding: 15px 0;
+    background: transparent;
+  }
+}

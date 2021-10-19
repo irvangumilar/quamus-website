@@ -1,0 +1,77 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: calc(50% - 180px);
+  left: calc(50% - 320px);
+  width: 640px;
+  /* background-color: white; */
+  padding: 1rem;
+  /* border-radius: 14px; */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+/* @media (min-width: 768px) {
+  .modal {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+} */
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .backdrop {
+    width: 100%;
+    height: 200vh;
+  }
+
+  .modal {
+    position: fixed;
+    top: calc(50% - 180px);
+    left: calc(50% - 45vw);
+    width: 90vw;
+    /* background-color: white; */
+    padding: 1rem;
+    /* border-radius: 14px; */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Small screens, laptops (769px — 1024px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* HD (1280px — 1920px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+}

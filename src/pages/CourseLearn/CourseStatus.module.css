@@ -1,0 +1,23 @@
+.course-status {
+  background: #ffff99;
+  margin-top: -5px;
+  height: 70px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-status p {
+  margin: 0;
+  padding: 0;
+}
+
+.course-status button {
+  background: #ff8e00;
+  border: 0;
+  color: #ffffff;
+  padding: 10px;
+  height: 40px;
+  width: 170px;
+}

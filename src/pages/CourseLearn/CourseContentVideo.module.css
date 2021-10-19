@@ -1,0 +1,127 @@
+.content-video {
+  width: 100%;
+}
+
+.content-video .video-player {
+  width: 100%;
+  height: 520px;
+}
+
+.content-video .description {
+  padding: 20px 30px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #000000;
+  margin-top: -2px;
+}
+
+.content-video .description h1 {
+  width: 50%;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.content-video .description a,
+.content-video .description a:hover {
+  text-align: center;
+  background: #00cccc;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  width: 170px;
+}
+
+.content-video .description a i {
+  margin-right: 5px;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .content-video .video-player {
+    width: 100%;
+    height: 190px;
+  }
+
+  .content-video .description {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #000000;
+    margin-top: -2px;
+  }
+
+  .content-video .description h1 {
+    width: 50%;
+    line-height: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-video .description a,
+  .content-video .description a:hover {
+    text-align: center;
+    background: #00cccc;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .content-video .description a i {
+    margin-right: 5px;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .content-video .video-player {
+    width: 100%;
+    height: 420px;
+  }
+
+  .content-video .description {
+    padding: 20px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #000000;
+    margin-top: -2px;
+  }
+
+  .content-video .description h1 {
+    width: 50%;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-video .description a,
+  .content-video .description a:hover {
+    text-align: center;
+    background: #00cccc;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  .content-video .description a i {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,97 @@
+.nav-item ul li {
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-item .user {
+  background: #00cccc;
+  border: 0;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-weight: 700;
+}
+
+.nav-item .user-dropdown {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: -250px;
+  width: 320px;
+  padding: 20px 10px;
+}
+
+.nav-item .user-dropdown .content {
+  background: #ececec;
+  border: 1px solid #d1d7dc;
+}
+
+.nav-item .cart-holder,
+.nav-item .button-holder {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 60px;
+  width: 40px;
+}
+
+.nav-item .cart-holder .cart {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  border: 0;
+}
+
+.nav-item .cart-holder .badge {
+  position: absolute;
+  left: 25px;
+  top: 10px;
+  background: #ff0000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item .cart-holder .badge p {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.nav-item .cart-dropdown {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: -300px;
+  width: 380px;
+  padding: 20px 10px;
+}
+
+.nav-item .cart-dropdown .content {
+  background: #ececec;
+  border: 1px solid #d1d7dc;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .nav-item ul li {
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .nav-item ul li {
+    margin-bottom: 10px;
+    display: block;
+  }
+}

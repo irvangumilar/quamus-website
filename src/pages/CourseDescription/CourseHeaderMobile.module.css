@@ -1,0 +1,65 @@
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .header-mobile {
+    background: #005f5f;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  .header-mobile .thumbnail-group img {
+    width: 100%;
+  }
+
+  .header-mobile .thumbnail-group {
+    position: relative;
+  }
+
+  .header-mobile .thumbnail-group .button {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    background: #474747;
+    border-radius: 20%;
+    border: 0;
+    padding: 6px;
+  }
+
+  .header-mobile .thumbnail-group .button i {
+    font-size: 50px;
+    color: #00cccc;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-mobile {
+    background: #005f5f;
+    color: #ffffff;
+    padding: 50px 80px;
+  }
+
+  .header-mobile .thumbnail-group img {
+    width: 100%;
+  }
+
+  .header-mobile .thumbnail-group {
+    position: relative;
+  }
+
+  .header-mobile .thumbnail-group .button {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    background: #474747;
+    border-radius: 20%;
+    border: 0;
+    padding: 6px;
+  }
+
+  .header-mobile .thumbnail-group .button i {
+    font-size: 50px;
+    color: #00cccc;
+  }
+}

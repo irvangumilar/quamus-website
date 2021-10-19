@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.caa8d923.chunk.css",
+    "main.js": "/static/js/main.69e009b8.chunk.js",
+    "main.js.map": "/static/js/main.69e009b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.12fe43f9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.12fe43f9.js.map",
+    "static/js/2.82f3f3a6.chunk.js": "/static/js/2.82f3f3a6.chunk.js",
+    "static/js/2.82f3f3a6.chunk.js.map": "/static/js/2.82f3f3a6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.caa8d923.chunk.css.map": "/static/css/main.caa8d923.chunk.css.map",
+    "static/js/2.82f3f3a6.chunk.js.LICENSE.txt": "/static/js/2.82f3f3a6.chunk.js.LICENSE.txt",
+    "static/media/Keunggulan.module.css": "/static/media/benefit.026756f1.png",
+    "static/media/game_art.46fb74e1.jpg": "/static/media/game_art.46fb74e1.jpg",
+    "static/media/ImageHeader.module.css": "/static/media/header_image.7c6b68d5.jpg",
+    "static/media/img_course.46aa8362.jpg": "/static/media/img_course.46aa8362.jpg",
+    "static/media/Instruktur.module.css": "/static/media/instructor.569f83ff.jpg",
+    "static/media/testimoni.a0cd35ba.jpg": "/static/media/testimoni.a0cd35ba.jpg",
+    "static/media/Why.module.css": "/static/media/why.25258285.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12fe43f9.js",
+    "static/js/2.82f3f3a6.chunk.js",
+    "static/css/main.caa8d923.chunk.css",
+    "static/js/main.69e009b8.chunk.js"
+  ]
+}

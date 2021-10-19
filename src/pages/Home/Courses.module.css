@@ -1,0 +1,37 @@
+.courses {
+  background: #ffffff;
+  padding: 40px 0;
+}
+
+.courses .header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.courses .header {
+  text-align: center;
+}
+
+.courses .list {
+  padding: 20px 40px;
+}
+
+.courses .list .course-item {
+  padding: 5px 20px;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .courses .list {
+    padding: 0px;
+  }
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .courses .list {
+    padding: 0px;
+  }
+}

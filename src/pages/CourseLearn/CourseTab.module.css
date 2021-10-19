@@ -1,0 +1,62 @@
+.tab-group {
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  display: flex;
+  top: 60px;
+  position: sticky;
+  z-index: 5;
+}
+
+.tab-group .tab-item,
+.tab-group .tab-item:hover {
+  position: relative;
+  flex-grow: 1;
+  border-right: 1px solid #bdbdbd;
+  border-bottom: 4px solid #00cccc;
+}
+
+.tab-group .tab-item .icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 22px;
+  background: transparent;
+  border: 2px solid #00cccc;
+  border-radius: 50%;
+  color: #00cccc;
+}
+
+.tab-group .tab-item .check {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #27b327;
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .tab-group {
+    height: 50px;
+    top: 40px;
+  }
+  .tab-group .tab-item .icon {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    border: 1px solid #00cccc;
+  }
+
+  .tab-group .tab-item .check {
+    font-size: 14px;
+  }
+}

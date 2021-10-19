@@ -1,0 +1,55 @@
+.accordion .btn-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-top: 1px solid #d1d7dc;
+  border-bottom: 1px solid #d1d7dc;
+  padding: 20px;
+  width: 100%;
+}
+
+.accordion .btn-title h1 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.accordion .btn-title p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.accordion .btn-title .caret {
+  width: 30px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+/* Mobile devices (320px — 480px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  .accordion .btn-title {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .accordion .btn-title h1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .accordion .btn-title p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+  }
+}

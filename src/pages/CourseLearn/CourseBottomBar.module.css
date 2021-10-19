@@ -1,0 +1,27 @@
+.bottom-bar {
+  display: none;
+}
+
+/* iPads, Tablets (481px — 768px)
+---------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .bottom-bar {
+    background: #ffffff;
+    border: 1px solid #d1d7dc;
+    width: 100%;
+    right: 0;
+    z-index: 4;
+    display: block;
+  }
+
+  .bottom-bar .title {
+    border-bottom: 1px solid #d1d7dc;
+    padding: 10px;
+  }
+
+  .bottom-bar .title h1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+  }
+}
